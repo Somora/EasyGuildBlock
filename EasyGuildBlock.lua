@@ -1,19 +1,13 @@
 -- Create a frame to handle events
-local frame = CreateFrame("FRAME", "EasyGuildBlockFrame");
+local frame = CreateFrame("Frame", "EasyGuildBlockFrame")
 
--- Register for the PLAYER_LOGIN event
-frame:RegisterEvent("PLAYER_LOGIN");
+-- Register for PLAYER_LOGIN event
+frame:RegisterEvent("PLAYER_LOGIN")
 
--- Define the event handler function
-local function eventHandler(self, event, ...)
+frame:SetScript("OnEvent", function(self, event)
     if event == "PLAYER_LOGIN" then
-        -- Block Guild Invites if not already blocked
-        if not GetCVarBool("blockGuildInvites") then
-            SetCVar("blockGuildInvites", 1);
-            print("EasyGuildBlock: Guild invites are now blocked.");
-        end
+        -- Enable auto-decline of guild invites
+        SetAutoDeclineGuildInvites(true)
+        print("EasyGuildBlock: Guild invites will now be automatically declined.")
     end
-end
-
--- Set the script to handle events
-frame:SetScript("OnEvent", eventHandler);
+end)
