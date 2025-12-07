@@ -18,3 +18,6 @@ All notable changes to this project will be documented in this file.
 ## Version 1.04 (2025-09-24):
 - Changed TOC version from 110205 to 110200, incompatibility with client.
 - Changed TOC to three files -> Retail, MoP and Classic
+
+## Version 1.05 (2025-12-07):
+- Updated addon for The War Within build version 110207. (The Warning)

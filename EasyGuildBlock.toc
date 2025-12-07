@@ -1,8 +1,8 @@
-## Interface: 110200
+## Interface: 110207
 ## Title: Somora's EasyGuildBlock
 ## Notes: This AddOn auto enables the guild invite block feature on character login.
 ## Author: Somora
-## Version: 1.04
+## Version: 1.05
 ## DefaultState: enabled
 
 EasyGuildBlock.lua
