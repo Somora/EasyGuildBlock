@@ -24,3 +24,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.06 (2026-01-16):
 - Updated addon for The Burning Crusade Anniversary version 20505.
+
+## Version 1.07 (2026-02-22):
+- Updated addon for Midnight build version 120001.
