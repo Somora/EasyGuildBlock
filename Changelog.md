@@ -27,3 +27,8 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.07 (2026-02-22):
 - Updated addon for Midnight build version 120001.
+
+## Version 1.08 (2026-04-15):
+- Optimized login handling by unregistering the event and clearing the handler after it runs.
+- Removed the named global frame to keep the addon footprint smaller.
+- Added a defensive API check to avoid Lua errors on unsupported clients.
