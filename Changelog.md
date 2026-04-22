@@ -32,3 +32,6 @@ All notable changes to this project will be documented in this file.
 - Optimized login handling by unregistering the event and clearing the handler after it runs.
 - Removed the named global frame to keep the addon footprint smaller.
 - Added a defensive API check to avoid Lua errors on unsupported clients.
+
+## Version 1.09 (2026-04-22):
+- Updated addon for Midnight build version 120005.
