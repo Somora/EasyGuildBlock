@@ -1,6 +1,6 @@
 ﻿package-as: EasyGuildBlock
 
-manual-changelog: CHANGELOG.md
+manual-changelog: Changelog.md
 
 ignore:
   - .git
