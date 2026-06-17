@@ -35,3 +35,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.09 (2026-04-22):
 - Updated addon for Midnight build version 120005.
+
+## Version 1.10 (2026-06-17):
+- Updated addon for Midnight build version 120007.
