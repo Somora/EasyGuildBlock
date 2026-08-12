@@ -41,3 +41,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.10.1 (2026-06-17):
 - Fixed the CurseForge packaging changelog path in `.pkgmeta`.
+
+## Version 1.11 (2026-08-12):
+- Updated addon for Midnight build version 120100.
