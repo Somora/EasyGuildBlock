@@ -1,6 +1,11 @@
 # EasyGuildBlock Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 1.12 (2026-10-08):
+- Added WoW Forever beta support for interface 16001 with a Camelot TOC and a base TOC fallback.
+- Retained the existing login handler, using the guild invite blocking API exposed by Forever.
+- Updated installation instructions and added an in-game verification procedure for Forever.
+
 ## Version 1.0 (2025-07-16):
 - Initial release of EasyGuildBlock.
 - Automatically enables block guild invites upon logging into the game.
