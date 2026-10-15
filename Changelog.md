@@ -1,6 +1,10 @@
 # EasyGuildBlock Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 1.13 (2026-10-15):
+- Updated the Retail interface version to 120105 for WoW 12.1.5.
+- Updated the addon version to 1.13 across all client TOCs.
+
 ## Version 1.12 (2026-10-08):
 - Added WoW Forever beta support for interface 16001 with a Camelot TOC and a base TOC fallback.
 - Retained the existing login handler, using the guild invite blocking API exposed by Forever.
